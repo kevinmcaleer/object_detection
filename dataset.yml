@@ -1,0 +1,32 @@
+# dataset.yaml
+train: /Users/kev/Python/object_detection/split/images/train  # Path to training images
+val: /Users/kev/Python/object_detection/split/images/val      # Path to validation images
+
+nc: 24  # Number of classes (change this to the number of classes you have)
+
+names: [
+    'dog',
+    'person',
+    'cat',
+    'tv',
+    'car',
+    'meatballs',
+    'marinara sauce',
+    'tomato soup',
+    'chicken noodle soup',
+    'french onion soup',
+    'chicken breast',
+    'ribs',
+    'pulled pork',
+    'hamburger',
+    'cavity',
+    'Micro:Bit',
+    'ESP32Cam',
+    'ESP8266',
+    'Arduino Uno R3',
+    'Raspberry Pi Pico W',
+    'Raspberry Pi Pico 2',
+    'Raspberry Pi Pico',
+    'Arduino Nano ESP32',
+    'Arduino Nano Every',
+    ]  # List of class names (replace with your class names)

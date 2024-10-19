@@ -1,6 +1,13 @@
+archive
+assets\ copy
 .DS_Store
 model.pth
 data
+tutorials
+temp_mct
+runs
+split
+output
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
